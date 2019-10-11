@@ -11,7 +11,6 @@
   "scripts": {
     "reinstall": "rm -rf node_modules package-lock.json && npm install",
     "lint": "eslint ./ && stylint ./",
-    "prepublishOnly": "npm run lint && echo \"\\033[0;32mReady to publish\\033[0m\"",
     "gulp": "gulp",
     "start": "gulp"
   },
