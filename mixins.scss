@@ -5,3 +5,15 @@
 @import 'mixins/icon';
 @import 'mixins/cursor';
 @import 'mixins/legacy';
+
+@mixin color-scheme-light {
+  .color-scheme-light {
+    @content;
+  }
+}
+
+@mixin color-scheme-dark {
+  .color-scheme-dark {
+    @content;
+  }
+}
